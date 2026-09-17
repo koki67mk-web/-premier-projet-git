@@ -4,7 +4,8 @@
 const prompt = require('prompt-sync')();
 const nom = prompt('Quel est ton nom');
 const prénom = prompt('Quel est ton prénom');
-const âge = prompt ('Quel est ton âge');
+const age = Number(prompt ('Quel est ton âge'));
+console.log(typeof age)
 const sexe = prompt('femme ou homme');
 const adresseEmail = prompt('ecrit ton adresse email');
 console.log(`bonjour ${nom} , ton ${prénom} , ton ${âge} , tu ${sexe} , ton mail ${adresseEmail} ,`);
