@@ -7,5 +7,5 @@ if (var1 === var2){
     let var3 = (var1+var2)*3;
     console.log("resulta" + " " +var3)
 }else{
-    console.log("la valeur est deférant");
+    console.log("la valeur est deférant ");
 }
