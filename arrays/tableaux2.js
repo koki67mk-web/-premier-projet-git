@@ -9,3 +9,4 @@ for (let i=0 ;i< num ; i++){
     console.log (list [i] );
     
 }console.log(list);
+list = list
