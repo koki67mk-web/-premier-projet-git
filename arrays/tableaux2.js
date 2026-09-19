@@ -5,7 +5,7 @@ const prompt = require('prompt-sync')();
 const num = Number(prompt(" entrer un nombre délément "));
 const list =[];
 for (let i=0 ;i< num ; i++){
-    list[i]= prompt(" entrer les element ");
+    list[i]= prompt(" entrer les elements ");
     console.log (list [i] );
     
 }console.log(list);
