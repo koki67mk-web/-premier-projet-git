@@ -5,10 +5,13 @@ function fibon(nombr){
     let suit = 0
     let term = 1
     let fonc="";
-    for( let i = 1 ; i <= nombr ; i++ ){
+    const arr=[]
+    for( let i = 0 ; i < nombr ; i++ ){
         fonc = suit + term;
         suit = term;
         term = fonc;
         console.log(fonc);
     };
-};console.log(fibon(15));
+}
+
+fibon(15);
