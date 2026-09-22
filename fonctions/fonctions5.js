@@ -8,4 +8,4 @@ function facto( nomber){
     
     }
     return multi;
-};console.log(facto(nombre=2));
+};console.log(facto(nombre=5));
