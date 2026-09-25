@@ -9,3 +9,4 @@ function nombre ( x , y){
         console.log("les deux nombres sont egaux")
      }
 }; nombre(10,8)
+

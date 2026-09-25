@@ -5,7 +5,6 @@ function fibon(nombr){
     let suit = 0
     let term = 1
     let fonc="";
-    const arr=[]
     for( let i = 0 ; i < nombr ; i++ ){
         fonc = suit + term;
         suit = term;
